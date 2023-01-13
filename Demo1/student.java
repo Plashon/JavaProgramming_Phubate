@@ -11,7 +11,6 @@ public class student {
     // Phubate.name = "Phbate";
     // Phubate.age = 19;
     // Phubate.group = "65/45";
-
     Phubate.setData("phubate", 19, "65/45");
 
     student plashon = new student();
