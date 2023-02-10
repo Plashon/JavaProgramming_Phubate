@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class Exercise36 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int answer = 1;
-        int i = 1;
-        while (i <= 100) {
+        // int i = 1;
+        // = input.nextInt();
+
+        var gg, i;
+        gg = 1;
+        for (i = 1; i <= 100; i++) {
             if (i % 2 == 0) {
-                answer = answer * i;
-                i++;
+                gg = gg * i;
             }
-
         }
-
-        System.out.println("ผลคูณของเลขคู่ตั้งแต่ 1 - 100 : " + answer);
+        System.out.println(gg);
     }
 }
