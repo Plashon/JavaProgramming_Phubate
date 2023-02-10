@@ -8,7 +8,9 @@ public class Exercise29 {
         double money = bath / 35.5;
         // double dollar = 0.028169014084507043;
         // double money = bath * dollar;
+
         System.out.print("You have money  " + money + " dollar");
 
     }
+
 }
