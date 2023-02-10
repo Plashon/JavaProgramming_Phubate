@@ -6,7 +6,7 @@ public class Exercise36 {
         // int i = 1;
         // = input.nextInt();
 
-        var gg, i;
+        double gg, i;
         gg = 1;
         for (i = 1; i <= 100; i++) {
             if (i % 2 == 0) {
