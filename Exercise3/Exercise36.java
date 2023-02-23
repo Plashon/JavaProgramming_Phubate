@@ -6,13 +6,17 @@ public class Exercise36 {
         // int i = 1;
         // = input.nextInt();
 
-        double gg, i;
-        gg = 1;
+        double result, i;
+        result = 1;
         for (i = 1; i <= 100; i++) {
             if (i % 2 == 0) {
-                gg = gg * i;
+                result = result * i;
             }
         }
-        System.out.println(gg);
+        System.out.println("---------------------------------------------------------------------------------");
+        System.out.println("                                                                                ");
+        System.out.println("The result of multiplying even numbers from 1 to 100. = "+ result);
+        System.out.println("                                                                                 ");
+        System.out.println("---------------------------------------------------------------------------------");
     }
 }

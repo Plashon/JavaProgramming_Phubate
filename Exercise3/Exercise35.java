@@ -9,11 +9,13 @@ public class Exercise35 {
 
         while (i <= 100) {
             if (i % 3 == 0) {
-                System.out.print(i + " , ");
+               
 
+              System.out.print(i + " , ");
+              
             }
             i++;
         }
-
+        
     }
 }
