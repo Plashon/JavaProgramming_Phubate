@@ -7,7 +7,7 @@ public class Exam2 {
         int n = input.nextInt();
         int odd = 0;
         int even = 0;
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             if (i % 2 == 0) {
                 even = even + 1;
             } else {
