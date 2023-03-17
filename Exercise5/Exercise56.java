@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Exercise56 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -13,14 +14,14 @@ public class Exercise56 {
         switch (selection) {
             case 1:
                 System.out.println("You general customer");
-                System.out.println("you will pay "+ (100+(water*0.5)));
+                System.out.println("you have pay " + (100 + (water * 0.5)));
                 break;
             case 2:
                 System.out.println("You commercial customers");
-                System.out.println("you will pay " + (100 + (water * 0.9)));
+                System.out.println("you have pay " + (100 + (water * 0.9)));
                 break;
         }
         input.close();
-        
+
     }
 }

@@ -3,11 +3,15 @@ import java.util.Scanner;
 public class Exercise59 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String name = scan.next();
+        System.out.print("Enter your name : ");
+        String name = scan.nextLine();
+        System.out.print("Enter your birtday year : ");
         int birthday_year = scan.nextInt();
-        while (birthday_year <= 2566) {
+
+        while (birthday_year >= 2566) {
             System.out.println("ท่านระบุข้อมูลผิด");
-            break;
+            System.out.print("Enter your birtday year : ");
+            birthday_year = scan.nextInt();
         }
         birthday_year++;
 
